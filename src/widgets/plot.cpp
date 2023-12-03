@@ -1,10 +1,10 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * This file is part of the ERIS tool (https://github.com/telina/eris).
- * Copyright (c) 2023 Rhea Rinaldo (Rhea@Rinaldo.biz).
+ * Copyright (c) 2023 Rhea Rinaldo (Rhea@Odlanir.de).
  *
  * Authors:
  *      - 2021-2021 Mohammed Hussam Al Turjman (Mohammed_Hussam.Al_Turjman@dfki.de)
- *      - 2023 Rhea Rinaldo (Rhea@Rinaldo.biz)
+ *      - 2023 Rhea Rinaldo (Rhea@Odlanir.de)
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
