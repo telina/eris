@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SceneData version="v1.2">
+    <Properties Model="CTMC"/>
+    <Nodes>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="3" xCoord="1673" yCoord="2583" ID="0" IntrusionIndicator="0" FailureIndicator="0" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="1818" yCoord="2583" ID="1" IntrusionIndicator="1.45e-6" FailureIndicator="1.37e-6" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="1968" yCoord="2583" ID="2" IntrusionIndicator="1.50e-6" FailureIndicator="1.52e-6" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="(n5=0 | n4=0) &amp; n3=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2111" yCoord="2626" ID="4" IntrusionIndicator="0" FailureIndicator="1.21e-6" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="1968" yCoord="2709" ID="3" IntrusionIndicator="0" FailureIndicator="1.09e-6" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2108" yCoord="2529" ID="5" IntrusionIndicator="0" FailureIndicator="1.21e-6" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+    </Nodes>
+    <Edges>
+        <Edge Type="5" StartNodeId="3" EndNodeId="2"/>
+        <Edge Type="5" StartNodeId="4" EndNodeId="2"/>
+        <Edge Type="5" StartNodeId="5" EndNodeId="2"/>
+        <Edge Type="4" StartNodeId="1" EndNodeId="2"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="1"/>
+    </Edges>
+    <Texts>
+        <Text Data="RADAR" xCoord="2167" yCoord="2536"/>
+        <Text Data="LIDAR" xCoord="2029" yCoord="2721"/>
+        <Text Data="Perception" xCoord="1946" yCoord="2552"/>
+        <Text Data="RADAR" xCoord="2167" yCoord="2644"/>
+        <Text Data="Vehicle-to-X" xCoord="1788" yCoord="2556"/>
+    </Texts>
+    <Options>
+        <Definition Redundancy=""/>
+    </Options>
+</SceneData>

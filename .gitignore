@@ -1,0 +1,11 @@
+# CMake Stuff
+**/CMakeCache.txt
+**/CMakeFiles/*
+**/Makefile
+*.cmake
+
+# Eris Build Stuff
+eris_autogen
+erisLib_autogen
+lib/
+bin/

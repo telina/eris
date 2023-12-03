@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="build">img/build_button.svg</file>
+    <file alias="runexperiment">img/experiment_button.svg</file>
+    <file alias="settings">img/settings_button.svg</file>
+    <file alias="start">img/start_button.svg</file>
+    <file alias="stop">img/stop_button.svg</file>
+    <file alias="text">img/text_button.svg</file>
+    <file alias="criticality">img/criticality_button.svg</file>
+    <file alias="id_button">img/id_button.svg</file>
+</qresource>
+</RCC>

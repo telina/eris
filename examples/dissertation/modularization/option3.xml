@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SceneData version="v1.2">
+    <Properties Model="CTMC" RateInterpretation="monthly"/>
+    <Nodes>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2838" yCoord="2213.63" ID="3" IntrusionIndicator="10.95" FailureIndicator="0.00803" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3162" yCoord="2171" ID="24" IntrusionIndicator="0" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n21=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3269" yCoord="2510" ID="12" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2649.37" yCoord="2482" ID="51" IntrusionIndicator="0.01014" FailureIndicator="0.000803" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="true" CorruptionRecoveryIndicator="0.0949" CorruptionRecoveryStrategy="General" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2490.63" yCoord="2423.77" ID="5" IntrusionIndicator="0.01241" FailureIndicator="0.000803" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="1.022" DefectRecoveryStrategy="General" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2707.13" yCoord="2352" ID="6" IntrusionIndicator="0" FailureIndicator="0.0007373" SecurityIndicator="0.001387" RecoverableDefect="true" DefectRecoveryIndicator="0.949" DefectRecoveryStrategy="General" CustomDefectRecoveryFormula="n1=0" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3287.22" yCoord="2170.78" ID="25" IntrusionIndicator="0" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n21=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3383" yCoord="2284.56" ID="22" IntrusionIndicator="0.00876" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3285" yCoord="2288.89" ID="21" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n20=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3170" yCoord="2290" ID="20" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3386.89" yCoord="2173.78" ID="26" IntrusionIndicator="0" FailureIndicator="8.03e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n23=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3482.67" yCoord="2170.67" ID="27" IntrusionIndicator="0" FailureIndicator="8.03e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n23=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3483.11" yCoord="2287.33" ID="23" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n26=0 &amp; n27=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3270" yCoord="2613" ID="14" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3157" yCoord="2607" ID="10" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3553.56" yCoord="2613.78" ID="19" IntrusionIndicator="0" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3356.37" yCoord="2617" ID="17" IntrusionIndicator="0" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3551.96" yCoord="2512.22" ID="15" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n19=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3353" yCoord="2509" ID="13" IntrusionIndicator="0.00876" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n17=0 &amp; n16=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3159" yCoord="2510" ID="11" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3115" yCoord="2422" ID="9" IntrusionIndicator="0.001387" FailureIndicator="8.03e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2989" yCoord="2366" ID="8" IntrusionIndicator="0.00949" FailureIndicator="0.00803" SecurityIndicator="0" RecoverableDefect="true" DefectRecoveryIndicator="0.01095" DefectRecoveryStrategy="General" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="10.95" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2647" yCoord="2243.77" ID="1" IntrusionIndicator="0.007446" FailureIndicator="0.01387" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2994" yCoord="2137" ID="4" IntrusionIndicator="0.00876" FailureIndicator="0.00949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="3" xCoord="2487" yCoord="2134" ID="0" IntrusionIndicator="0" FailureIndicator="0" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2909" yCoord="2473" ID="2" IntrusionIndicator="0.0949" FailureIndicator="0.00949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n7=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2775" yCoord="2472" ID="7" IntrusionIndicator="0" FailureIndicator="0.0007373" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3454.44" yCoord="2510.11" ID="16" IntrusionIndicator="0.00876" FailureIndicator="8.76e-06" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3072" yCoord="2553" ID="50" IntrusionIndicator="0" FailureIndicator="0.000949" SecurityIndicator="0.000949" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3454.33" yCoord="2612.22" ID="18" IntrusionIndicator="0.00876" FailureIndicator="7.373e-05" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3575.56" yCoord="2173" ID="28" IntrusionIndicator="0.00876" FailureIndicator="0.000949" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="true" SubmodulePath="/home/rhea/Documents/uni/eris/examples/dissertation/modularization/SDS.xml" SimulationPath="" Type="2" xCoord="2780.31" yCoord="2599.15" ID="29" IntrusionIndicator="0.000104189" FailureIndicator="0.00133847" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n7=0"/>
+    </Nodes>
+    <Edges>
+        <Edge Type="4" StartNodeId="5" EndNodeId="29"/>
+        <Edge Type="4" StartNodeId="51" EndNodeId="29"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="29"/>
+        <Edge Type="4" StartNodeId="29" EndNodeId="9"/>
+        <Edge Type="5" StartNodeId="7" EndNodeId="29"/>
+        <Edge Type="4" StartNodeId="29" EndNodeId="51"/>
+        <Edge Type="4" StartNodeId="29" EndNodeId="5"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="18"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="28"/>
+        <Edge Type="6" StartNodeId="6" EndNodeId="51"/>
+        <Edge Type="6" StartNodeId="50" EndNodeId="9"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="12"/>
+        <Edge Type="5" StartNodeId="10" EndNodeId="12"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="16"/>
+        <Edge Type="5" StartNodeId="16" EndNodeId="13"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="2"/>
+        <Edge Type="5" StartNodeId="7" EndNodeId="2"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="9"/>
+        <Edge Type="4" StartNodeId="1" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="1"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="15"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="14"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="23"/>
+        <Edge Type="5" StartNodeId="23" EndNodeId="26"/>
+        <Edge Type="5" StartNodeId="23" EndNodeId="27"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="4"/>
+        <Edge Type="4" StartNodeId="4" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="4"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="1"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="22"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="21"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="20"/>
+        <Edge Type="5" StartNodeId="27" EndNodeId="23"/>
+        <Edge Type="5" StartNodeId="26" EndNodeId="23"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="10"/>
+        <Edge Type="5" StartNodeId="19" EndNodeId="15"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="13"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="11"/>
+        <Edge Type="5" StartNodeId="17" EndNodeId="13"/>
+        <Edge Type="6" StartNodeId="6" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="5"/>
+        <Edge Type="4" StartNodeId="5" EndNodeId="9"/>
+        <Edge Type="5" StartNodeId="20" EndNodeId="21"/>
+        <Edge Type="5" StartNodeId="21" EndNodeId="25"/>
+        <Edge Type="5" StartNodeId="10" EndNodeId="11"/>
+        <Edge Type="5" StartNodeId="11" EndNodeId="10"/>
+        <Edge Type="6" StartNodeId="6" EndNodeId="5"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="51"/>
+        <Edge Type="4" StartNodeId="3" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="3"/>
+        <Edge Type="5" StartNodeId="21" EndNodeId="24"/>
+    </Edges>
+    <Texts>
+        <Text Data="Radio" xCoord="2848.44" yCoord="2186.78"/>
+        <Text Data="Wiper" xCoord="3159" yCoord="2141"/>
+        <Text Data="HSM" xCoord="3073" yCoord="2605"/>
+        <Text Data="Accelaration" xCoord="3054" yCoord="2513"/>
+        <Text Data="Bluetooth Interface" xCoord="2944" yCoord="2104"/>
+        <Text Data="VANET Router" xCoord="2527" yCoord="2495"/>
+        <Text Data="OBD-II Interface" xCoord="2478" yCoord="2473"/>
+        <Text Data="Firewall" xCoord="2687" yCoord="2321"/>
+        <Text Data="Rain Sensor" xCoord="3273" yCoord="2143"/>
+        <Text Data="On-board Power Supply" xCoord="3172.11" yCoord="2239.33"/>
+        <Text Data="Energy Management" xCoord="3085" yCoord="2257"/>
+        <Text Data="Door Control" xCoord="3340" yCoord="2257.44"/>
+        <Text Data="Headlight Power right" xCoord="3426" yCoord="2137"/>
+        <Text Data="Headlight Power left" xCoord="3331" yCoord="2116"/>
+        <Text Data="Automatic Transmission" xCoord="3197" yCoord="2553"/>
+        <Text Data="Headlight Range Control" xCoord="3377" yCoord="2342.67"/>
+        <Text Data="Rotation Sensor" xCoord="3316.22" yCoord="2668.11"/>
+        <Text Data="Airbag" xCoord="3556" yCoord="2473"/>
+        <Text Data="Seat Occupancy Detection" xCoord="3472.67" yCoord="2664.22"/>
+        <Text Data="ABS" xCoord="3359" yCoord="2462"/>
+        <Text Data="Engine Control Unit" xCoord="3086" yCoord="2648"/>
+        <Text Data="Infotainment" xCoord="3030" yCoord="2343"/>
+        <Text Data="Telematics Unit" xCoord="2633" yCoord="2205"/>
+        <Text Data="Gateway" xCoord="3082" yCoord="2388"/>
+        <Text Data="Navi" xCoord="2884" yCoord="2444"/>
+        <Text Data="GPS" xCoord="2758" yCoord="2446"/>
+        <Text Data="Break System" xCoord="3421" yCoord="2557"/>
+        <Text Data="Steering" xCoord="3247" yCoord="2655"/>
+        <Text Data="Climatronic" xCoord="3527.33" yCoord="2228.44"/>
+        <Text Data="Level Control" xCoord="3420.67" yCoord="2686.22"/>
+    </Texts>
+    <Options>
+        <Definition Redundancy=""/>
+    </Options>
+</SceneData>

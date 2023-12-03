@@ -1,0 +1,35 @@
+target_sources(erisLib
+    PRIVATE
+        chart_view.cpp
+        chart_view.h
+        syntax_highlighting.cpp
+        syntax_highlighting.h
+        editor_widget.cpp
+        editor_widget.h
+        error_handler.cpp
+        error_handler.h
+        errors.h
+        evaluation_settings.cpp
+        evaluation_settings.h
+        evaluation_tab.cpp
+        evaluation_tab.h
+        graphics_view.cpp
+        graphics_view.h
+        main_window
+        modules_tab_widget.cpp
+        modules_tab_widget.h
+        node_settings.cpp
+        node_settings.h
+        module_chooser_layout.cpp
+        module_chooser_layout.h
+        output_widget.cpp
+        output_widget.h
+        plot.cpp
+        plot.h
+        properties_table.cpp
+        properties_table.h
+        working_dialog.cpp
+        working_dialog.h
+)
+
+target_include_directories(erisLib PUBLIC .)

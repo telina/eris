@@ -1,0 +1,35 @@
+target_sources(erisLib
+    PRIVATE
+        component_type.h
+        counter.cpp
+        counter.h
+        edge.cpp
+        edge.h
+        edge_item.cpp
+        edge_item.h
+        graphic_scene.cpp
+        graphic_scene_factory.cpp
+        graphic_scene.h
+        model.cpp
+        model.h
+        operational.cpp
+        operational.h
+        node.cpp
+        node.h
+        node_item.cpp
+        node_item.h
+        recovery_strategy.cpp
+        recovery_strategy.h
+        scene_status.cpp
+        scene_status.h
+        text_item.cpp
+        text_item.h
+        transcriber.cpp
+        transcriber.h
+        transformer.cpp
+        transformer.h
+        rate_interpretation.h
+        rate_interpretation.cpp
+)
+
+target_include_directories(erisLib PUBLIC .)

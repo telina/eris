@@ -1,0 +1,3 @@
+const double T;
+
+P=? [ F[T,T] "defective" ] // security and/or safety failure

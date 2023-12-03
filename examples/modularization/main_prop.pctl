@@ -1,0 +1,7 @@
+
+P=? [ F=1 "defective" ]
+P=? [ F=5 "defective" ]
+P=? [ F=7 "defective" ]
+P=? [ F=10 "defective" ]
+P=? [ F=12 "defective" ]
+P=? [ F=15 "defective" ]

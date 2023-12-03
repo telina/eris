@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SceneData version="v1.2">
+    <Properties Model="CTMC"/>
+    <Nodes>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3034" yCoord="2557" ID="19" IntrusionIndicator="0" FailureIndicator="0.0001" SecurityIndicator="0.022" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2825" yCoord="2476" ID="7" IntrusionIndicator="0" FailureIndicator="0.00006" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2680" yCoord="2476" ID="2" IntrusionIndicator="0.02" FailureIndicator="0.02" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n7=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="3" xCoord="2487" yCoord="2134" ID="0" IntrusionIndicator="0" FailureIndicator="0" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2995" yCoord="2136" ID="4" IntrusionIndicator="0.04" FailureIndicator="0.04" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2648" yCoord="2244" ID="1" IntrusionIndicator="0.0152" FailureIndicator="0.009" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2990" yCoord="2365" ID="8" IntrusionIndicator="0.03" FailureIndicator="0.02" SecurityIndicator="0" RecoverableDefect="true" DefectRecoveryIndicator="0.0018" DefectRecoveryStrategy="General" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0.015" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3116" yCoord="2421" ID="9" IntrusionIndicator="0.03" FailureIndicator="0.00001" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="2882" yCoord="2578" ID="28" IntrusionIndicator="3.0108e-05" FailureIndicator="2.9756e-04" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n7=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3482" yCoord="2292" ID="23" IntrusionIndicator="0.001" FailureIndicator="0.00015" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3487" yCoord="2174" ID="27" IntrusionIndicator="0" FailureIndicator="0.0005" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n23=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3389" yCoord="2175" ID="26" IntrusionIndicator="0" FailureIndicator="0.0005" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n23=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3171" yCoord="2289" ID="20" IntrusionIndicator="0.001" FailureIndicator="0.00015" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="2" xCoord="3297" yCoord="2289" ID="21" IntrusionIndicator="0.001" FailureIndicator="0.00012" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n20=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3394" yCoord="2288" ID="22" IntrusionIndicator="0.001" FailureIndicator="0.0005" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3296" yCoord="2172" ID="25" IntrusionIndicator="0" FailureIndicator="0.001" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n21=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2707" yCoord="2351" ID="6" IntrusionIndicator="0" FailureIndicator="0.01" SecurityIndicator="0.01" RecoverableDefect="true" DefectRecoveryIndicator="0.015" DefectRecoveryStrategy="General" CustomDefectRecoveryFormula="n1=0" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2538" yCoord="2423" ID="5" IntrusionIndicator="0.011" FailureIndicator="0.001" SecurityIndicator="0" RecoverableDefect="true" DefectRecoveryIndicator="0.0014" DefectRecoveryStrategy="General" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2489" yCoord="2580" ID="29" IntrusionIndicator="0.021" FailureIndicator="0.001" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="true" CorruptionRecoveryIndicator="0.014" CorruptionRecoveryStrategy="General" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="3159" yCoord="2166" ID="24" IntrusionIndicator="0" FailureIndicator="0" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes="n21=0"/>
+        <Node Simulated="false" Submodule="false" SubmodulePath="" SimulationPath="" Type="1" xCoord="2839" yCoord="2214" ID="3" IntrusionIndicator="0.04" FailureIndicator="0.02" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+        <Node Simulated="false" Submodule="true" SubmodulePath="/home/telina/Development/eris/examples/modularization/CAN1.xml" SimulationPath="" Type="2" xCoord="3210" yCoord="2516" ID="30" IntrusionIndicator="0" FailureIndicator="0" SecurityIndicator="0" RecoverableDefect="false" DefectRecoveryIndicator="0" DefectRecoveryStrategy="Restricted" CustomDefectRecoveryFormula="" RecoverableCorruption="false" CorruptionRecoveryIndicator="0" CorruptionRecoveryStrategy="Restricted" CustomCorruptionRecoveryFormula="" EssentialNodes=""/>
+    </Nodes>
+    <Edges>
+        <Edge Type="5" StartNodeId="21" EndNodeId="24"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="3"/>
+        <Edge Type="4" StartNodeId="3" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="30"/>
+        <Edge Type="4" StartNodeId="29" EndNodeId="28"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="29"/>
+        <Edge Type="6" StartNodeId="6" EndNodeId="5"/>
+        <Edge Type="5" StartNodeId="21" EndNodeId="25"/>
+        <Edge Type="5" StartNodeId="20" EndNodeId="21"/>
+        <Edge Type="4" StartNodeId="5" EndNodeId="9"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="5"/>
+        <Edge Type="6" StartNodeId="6" EndNodeId="8"/>
+        <Edge Type="5" StartNodeId="26" EndNodeId="23"/>
+        <Edge Type="5" StartNodeId="27" EndNodeId="23"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="20"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="21"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="22"/>
+        <Edge Type="4" StartNodeId="28" EndNodeId="9"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="1"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="4"/>
+        <Edge Type="4" StartNodeId="4" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="0" EndNodeId="4"/>
+        <Edge Type="5" StartNodeId="23" EndNodeId="27"/>
+        <Edge Type="5" StartNodeId="23" EndNodeId="26"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="23"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="1"/>
+        <Edge Type="4" StartNodeId="1" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="9"/>
+        <Edge Type="4" StartNodeId="9" EndNodeId="8"/>
+        <Edge Type="5" StartNodeId="7" EndNodeId="28"/>
+        <Edge Type="5" StartNodeId="7" EndNodeId="2"/>
+        <Edge Type="4" StartNodeId="2" EndNodeId="8"/>
+        <Edge Type="4" StartNodeId="8" EndNodeId="2"/>
+        <Edge Type="6" StartNodeId="19" EndNodeId="9"/>
+        <Edge Type="6" StartNodeId="6" EndNodeId="29"/>
+    </Edges>
+    <Texts>
+        <Text Data="GPS" xCoord="2883" yCoord="2475"/>
+        <Text Data="Navi" xCoord="2687" yCoord="2443"/>
+        <Text Data="Gateway" xCoord="3082" yCoord="2388"/>
+        <Text Data="Telematics Unit" xCoord="2633" yCoord="2205"/>
+        <Text Data="Infotainment" xCoord="3030" yCoord="2343"/>
+        <Text Data="AI Computer" xCoord="0" yCoord="108"/>
+        <Text Data="Headlight Range Control" xCoord="3397" yCoord="2346"/>
+        <Text Data="Headlight Power left" xCoord="3331" yCoord="2116"/>
+        <Text Data="Headlight Power right" xCoord="3426" yCoord="2137"/>
+        <Text Data="Door Control" xCoord="3360" yCoord="2263"/>
+        <Text Data="Energy Management" xCoord="3085" yCoord="2257"/>
+        <Text Data="On-board Power Supply" xCoord="3181" yCoord="2236"/>
+        <Text Data="Rain Sensor" xCoord="3273" yCoord="2143"/>
+        <Text Data="Firewall" xCoord="2687" yCoord="2321"/>
+        <Text Data="OBD-II Interface" xCoord="2521" yCoord="2472"/>
+        <Text Data="Self Driving System" xCoord="2842" yCoord="2628"/>
+        <Text Data="VANET Router" xCoord="2499" yCoord="2623"/>
+        <Text Data="Bluetooth Interface" xCoord="2944" yCoord="2104"/>
+        <Text Data="HSM" xCoord="3043" yCoord="2604"/>
+        <Text Data="Wiper" xCoord="3157" yCoord="2131"/>
+        <Text Data="Radio" xCoord="2854" yCoord="2179"/>
+        <Text Data="Submodule CAN1" xCoord="3200" yCoord="2476"/>
+    </Texts>
+    <Options>
+        <Definition Redundancy=""/>
+    </Options>
+</SceneData>
