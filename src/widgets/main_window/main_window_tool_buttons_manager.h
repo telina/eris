@@ -49,7 +49,7 @@ public:
     
     void enableAll(bool enable = true);
     
-    void enableNodeSwapIdButton();
+    void enableNodeSwapIdButton(bool enable=true);
     
     void disableVerificationButtons();
 

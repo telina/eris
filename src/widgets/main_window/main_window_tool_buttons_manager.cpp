@@ -70,7 +70,7 @@ MainWindowToolButtonsManager::MainWindowToolButtonsManager(QObject* parent) :
     mNodeSwapIdBut = new QToolButton();
     mNodeSwapIdBut->setEnabled(false);
     initToolButton(mNodeSwapIdBut, QString(":/id_button"), 
-        QString("Swap the ID between two nodes"), SLOT(transformButClicked()));    
+        QString("Swap the ID between two nodes"), SLOT(swapIdButClicked()));    
 
     QToolBar* verificationToolBar = MainWindow::getInstance()->addToolBar(tr("Verify"));
     verificationToolBar->addWidget(mTransformBut);
@@ -108,9 +108,9 @@ MainWindowToolButtonsManager::enableAll(bool enable)
 }
 
 void
-MainWindowToolButtonsManager::enableNodeSwapIdButton()
+MainWindowToolButtonsManager::enableNodeSwapIdButton(bool enable)
 {
-    mNodeSwapIdBut->setEnabled(true);
+    mNodeSwapIdBut->setEnabled(enable);
 }
 
 void

@@ -437,7 +437,7 @@ public slots:
      * If triggered change the state of the swap id button
      * */
     void
-    onEnableSwapId(bool enable);
+    onEnableSwapId();
 
     /**
      * Triggered when the mouse is right-clicked on empty space. Deselects all selected items and

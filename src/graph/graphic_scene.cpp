@@ -385,7 +385,6 @@ GraphicScene::mouseReleaseEvent(QGraphicsSceneMouseEvent* mouseEvent)
                 break;
             }
         }
-        emit enableSwapId(nodeCount == 2);
     }
 }
 
@@ -580,23 +579,23 @@ GraphicScene::onAreaSelection(const QPolygonF& selectionArea)
             nodeCount++;
         }
     }
-
-    emit enableSwapId(nodeCount == 2);
 }
+
 void
 GraphicScene::swapNodeId(bool)
 {
     auto selected = selectedItems();
     if (selected.size() != 2)
     {
-        PRINT_PANIC("Expected two nodes got %d ", selected.size());
+        PRINT_ERROR("Expected two nodes got %d ", selected.size());
+        return;
     }
     NodeItem *first = nullptr, *second = nullptr;
     for (auto item : selected)
     {
         if (item->type() != NodeItem::Type)
         {
-            PRINT_PANIC("Expected item type to be NodeItem::Type got %d ", item->type());
+            PRINT_ERROR("Expected item type to be NodeItem::Type got %d ", item->type());
         }
         if (!first)
         {
@@ -607,9 +606,9 @@ GraphicScene::swapNodeId(bool)
             second = qgraphicsitem_cast<NodeItem*>(item);
         }
     }
-
     first->swapId(second);
 }
+
 void
 GraphicScene::swapNodeCriticality(bool)
 {
@@ -629,6 +628,7 @@ GraphicScene::swapNodeCriticality(bool)
         }
     }
 }
+
 bool
 GraphicScene::openItemSettings(bool)
 {
@@ -687,7 +687,8 @@ GraphicScene::init()
         connect(this, &GraphicScene::itemInserted, this, &GraphicScene::onItemInserted);
         connect(this, &GraphicScene::itemSelected, this, &GraphicScene::onItemSelected);
         connect(this, &GraphicScene::itemDeselected, this, &GraphicScene::onItemDeselected);
-        connect(this, &GraphicScene::enableSwapId, this, &GraphicScene::onEnableSwapId);
+        connect(this, &GraphicScene::selectionChanged, this, &GraphicScene::onEnableSwapId);
+
 
         mFileName = QDir::currentPath().append("/scene_data.xml");
         mOutFileName = QDir::currentPath().append("/scenario.pm");
@@ -731,9 +732,25 @@ GraphicScene::onItemDeselected()
     setMode(GraphicScene::Navigate);
 }
 void
-GraphicScene::onEnableSwapId(bool enable)
+GraphicScene::onEnableSwapId()
 {
-    MainWindowToolButtonsManager::getInstance()->enableNodeSwapIdButton();
+    int nodes = 0;
+    for (QGraphicsItem* item : this->selectedItems())
+    {
+        if (item->type() == NodeItem::Type)
+        {
+            ++nodes;
+        }
+    }
+    if (nodes == 2)
+    {
+        MainWindowToolButtonsManager::getInstance()->enableNodeSwapIdButton(true);
+    }
+    else
+    {
+        MainWindowToolButtonsManager::getInstance()->enableNodeSwapIdButton(false);
+    }
+    
 }
 /*-------------------------------------------*/
 // Tool Buttons from MainWindowToolButtonsManager
